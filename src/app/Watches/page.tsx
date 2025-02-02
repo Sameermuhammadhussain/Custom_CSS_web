@@ -12,8 +12,8 @@ const Watches = () => {
 
   return (
     <div className="watches">
-      {watchData.map(watch => (
-        <div key={watch.id} className="watche-card">
+      {watchData.map((watch) => (
+        <div key={watch.id} className="watch-card">
           <img src={watch.image} alt={watch.name} />
           <h3>{watch.name}</h3>
           <p>{watch.description}</p>

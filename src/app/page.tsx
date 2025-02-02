@@ -1,5 +1,5 @@
 
-import HomeElement from "@/components/HomeElement";
+import HomeElement from "./components/HomeElement";
 export default function Home() {
   return (
     <div>
